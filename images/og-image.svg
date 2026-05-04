@@ -17,13 +17,16 @@
   <circle cx="1100" cy="70" r="1.5" fill="#F0EDE6" opacity="0.5"/>
   <circle cx="200" cy="120" r="1" fill="#F0EDE6" opacity="0.3"/>
   <circle cx="1050" cy="140" r="1" fill="#F0EDE6" opacity="0.4"/>
-  <!-- W logo mark — left side -->
-  <circle cx="160" cy="315" r="72" fill="none" stroke="#DA7638" stroke-width="3" opacity="0.9"/>
-  <circle cx="160" cy="315" r="75" fill="#0D0A18" opacity="0.5"/>
-  <circle cx="160" cy="315" r="75" fill="none" stroke="#DA7638" stroke-width="3"/>
-  <path d="M120 290 L137 340 L160 310 L183 340 L200 290"
-        fill="none" stroke="#DA7638" stroke-width="8"
-        stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- W logo mark — outer arms at TOP, valleys at BOTTOM = W not M -->
+  <rect x="82" y="237" width="156" height="180" fill="#000000" rx="78"/>
+  <polyline
+    points="100,252 122,378 160,308 198,378 220,252"
+    fill="none" stroke="#DA7638" stroke-width="10"
+    stroke-linecap="square" stroke-linejoin="miter" stroke-miterlimit="10"/>
+  <text x="160" y="418" text-anchor="middle"
+        font-family="Georgia,'Times New Roman',serif"
+        font-weight="700" font-size="14" letter-spacing="6"
+        fill="#DA7638">WYVEX</text>
   <!-- WYVEX wordmark -->
   <text x="270" y="295"
         font-family="Georgia, 'Times New Roman', serif"

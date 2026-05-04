@@ -1,13 +1,23 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <!-- Background circle -->
-  <circle cx="32" cy="32" r="32" fill="#0D0A18"/>
-  <!-- Amber ring -->
-  <circle cx="32" cy="32" r="29" fill="none" stroke="#DA7638" stroke-width="2"/>
-  <!-- W letterform — clean geometric, Palantir-style weight -->
-  <path d="M14 18 L20 46 L32 30 L44 46 L50 18" 
-        fill="none" 
-        stroke="#DA7638" 
-        stroke-width="4.5" 
-        stroke-linecap="round" 
-        stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Pitch black circle -->
+  <circle cx="50" cy="50" r="50" fill="#000000"/>
+
+  <!-- Sharp W: top-left → bottom-left-valley → mid-up → bottom-right-valley → top-right -->
+  <polyline
+    points="10,22  28,72  50,42  72,72  90,22"
+    fill="none"
+    stroke="#DA7638"
+    stroke-width="6"
+    stroke-linecap="square"
+    stroke-linejoin="miter"
+    stroke-miterlimit="10"/>
+
+  <!-- WYVEX -->
+  <text x="50" y="92"
+    text-anchor="middle"
+    font-family="Georgia,'Times New Roman',serif"
+    font-weight="700"
+    font-size="8"
+    letter-spacing="3"
+    fill="#DA7638">WYVEX</text>
 </svg>
