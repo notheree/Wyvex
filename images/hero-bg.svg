@@ -1,0 +1,308 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1A1035"/>
+      <stop offset="35%" stop-color="#2D1B54"/>
+      <stop offset="65%" stop-color="#5C2D6E"/>
+      <stop offset="85%" stop-color="#C4572A"/>
+      <stop offset="100%" stop-color="#E8773A"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F4A04A" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#E8773A" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky gradient -->
+  <rect width="1440" height="900" fill="url(#sky)"/>
+
+  <!-- Moon / Sun glow — large orange horizon burst -->
+  <ellipse cx="720" cy="820" rx="420" ry="180" fill="#F4915A" opacity="0.25"/>
+  <ellipse cx="720" cy="850" rx="260" ry="100" fill="#F7B26A" opacity="0.3"/>
+
+  <!-- Stars (pixel dots) -->
+  <g fill="#F0EDE6" opacity="0.7">
+    <rect x="120" y="40" width="2" height="2"/>
+    <rect x="200" y="70" width="2" height="2"/>
+    <rect x="340" y="30" width="3" height="3"/>
+    <rect x="480" y="55" width="2" height="2"/>
+    <rect x="610" y="25" width="2" height="2"/>
+    <rect x="700" y="80" width="2" height="2"/>
+    <rect x="820" y="35" width="3" height="3"/>
+    <rect x="950" y="60" width="2" height="2"/>
+    <rect x="1080" y="20" width="2" height="2"/>
+    <rect x="1200" y="45" width="3" height="3"/>
+    <rect x="1320" y="30" width="2" height="2"/>
+    <rect x="60" y="110" width="2" height="2"/>
+    <rect x="280" y="100" width="2" height="2"/>
+    <rect x="440" y="120" width="2" height="2"/>
+    <rect x="560" y="95" width="2" height="2"/>
+    <rect x="760" y="115" width="2" height="2"/>
+    <rect x="900" y="88" width="2" height="2"/>
+    <rect x="1040" y="105" width="2" height="2"/>
+    <rect x="1160" y="75" width="2" height="2"/>
+    <rect x="1380" y="90" width="2" height="2"/>
+  </g>
+
+  <!-- Layer 1: Distant mountains (deep purple) -->
+  <path d="M0,520 L80,420 L160,480 L260,380 L360,440 L440,360 L520,400 L600,320 L680,370 L760,290 L840,350 L920,310 L1000,380 L1080,340 L1160,430 L1240,390 L1320,470 L1400,420 L1440,440 L1440,900 L0,900 Z"
+        fill="#1E1040" opacity="0.95"/>
+
+  <!-- Layer 2: Mid mountains (dark purple-blue) -->
+  <path d="M0,600 L120,500 L200,560 L300,490 L380,530 L460,470 L560,520 L640,460 L720,500 L800,450 L880,490 L960,460 L1040,510 L1120,480 L1200,540 L1280,500 L1360,560 L1440,530 L1440,900 L0,900 Z"
+        fill="#16213E" opacity="0.95"/>
+
+  <!-- Layer 3: City skyline silhouette (dark blue) — pixel-style buildings -->
+  <!-- Buildings as pixel rectangles -->
+  <g fill="#0D1B3E">
+    <!-- Left cluster -->
+    <rect x="0" y="590" width="40" height="180"/>
+    <rect x="8" y="560" width="24" height="30"/>
+    <!-- antenna -->
+    <rect x="18" y="540" width="4" height="20"/>
+    <rect x="16" y="540" width="8" height="4"/>
+
+    <rect x="50" y="620" width="60" height="150"/>
+    <rect x="58" y="590" width="44" height="30"/>
+    <!-- windows -->
+    <rect x="58" y="600" width="8" height="8" fill="#C4572A" opacity="0.5"/>
+    <rect x="72" y="600" width="8" height="8" fill="#C4572A" opacity="0.5"/>
+    <rect x="86" y="600" width="8" height="8" fill="#E8773A" opacity="0.6"/>
+    <rect x="58" y="615" width="8" height="8" fill="#E8773A" opacity="0.4"/>
+    <rect x="86" y="615" width="8" height="8" fill="#C4572A" opacity="0.5"/>
+
+    <rect x="120" y="570" width="50" height="200"/>
+    <rect x="128" y="550" width="34" height="22"/>
+    <rect x="138" y="530" width="14" height="22"/>
+    <!-- dish -->
+    <rect x="140" y="528" width="10" height="4"/>
+    <rect x="138" y="524" width="14" height="4"/>
+    <!-- windows -->
+    <rect x="128" y="558" width="8" height="8" fill="#E8773A" opacity="0.7"/>
+    <rect x="142" y="558" width="8" height="8" fill="#C4572A" opacity="0.5"/>
+    <rect x="156" y="558" width="8" height="8" fill="#E8773A" opacity="0.5"/>
+    <rect x="128" y="572" width="8" height="8" fill="#C4572A" opacity="0.4"/>
+    <rect x="156" y="572" width="8" height="8" fill="#E8773A" opacity="0.6"/>
+
+    <rect x="180" y="630" width="36" height="140"/>
+    <rect x="188" y="620" width="20" height="12"/>
+
+    <!-- Mid cluster -->
+    <rect x="400" y="580" width="70" height="190"/>
+    <rect x="408" y="560" width="54" height="22"/>
+    <!-- antenna -->
+    <rect x="432" y="540" width="6" height="22"/>
+    <rect x="426" y="542" width="18" height="4"/>
+    <!-- windows grid -->
+    <rect x="410" y="568" width="10" height="8" fill="#F4A04A" opacity="0.6"/>
+    <rect x="426" y="568" width="10" height="8" fill="#E8773A" opacity="0.5"/>
+    <rect x="442" y="568" width="10" height="8" fill="#F4A04A" opacity="0.7"/>
+    <rect x="458" y="568" width="10" height="8" fill="#C4572A" opacity="0.5"/>
+    <rect x="410" y="582" width="10" height="8" fill="#C4572A" opacity="0.4"/>
+    <rect x="442" y="582" width="10" height="8" fill="#F4A04A" opacity="0.6"/>
+    <rect x="458" y="582" width="10" height="8" fill="#E8773A" opacity="0.5"/>
+    <rect x="426" y="596" width="10" height="8" fill="#F4A04A" opacity="0.5"/>
+    <rect x="458" y="596" width="10" height="8" fill="#E8773A" opacity="0.4"/>
+
+    <rect x="480" y="610" width="44" height="160"/>
+    <rect x="488" y="598" width="28" height="14"/>
+    <rect x="488" y="618" width="8" height="8" fill="#F4A04A" opacity="0.5"/>
+    <rect x="502" y="618" width="8" height="8" fill="#E8773A" opacity="0.6"/>
+    <rect x="516" y="618" width="8" height="8" fill="#C4572A" opacity="0.4"/>
+
+    <rect x="534" y="590" width="52" height="180"/>
+    <rect x="542" y="570" width="36" height="22"/>
+    <rect x="550" y="550" width="20" height="22"/>
+    <rect x="542" y="578" width="8" height="8" fill="#E8773A" opacity="0.6"/>
+    <rect x="556" y="578" width="8" height="8" fill="#F4A04A" opacity="0.7"/>
+    <rect x="570" y="578" width="8" height="8" fill="#E8773A" opacity="0.5"/>
+    <rect x="542" y="592" width="8" height="8" fill="#C4572A" opacity="0.4"/>
+    <rect x="570" y="592" width="8" height="8" fill="#F4A04A" opacity="0.6"/>
+
+    <!-- Right cluster -->
+    <rect x="900" y="560" width="80" height="210"/>
+    <rect x="908" y="540" width="64" height="22"/>
+    <rect x="936" y="520" width="8" height="22"/>
+    <rect x="930" y="520" width="20" height="4"/>
+    <!-- windows -->
+    <rect x="910" y="548" width="10" height="8" fill="#F4A04A" opacity="0.7"/>
+    <rect x="926" y="548" width="10" height="8" fill="#E8773A" opacity="0.6"/>
+    <rect x="942" y="548" width="10" height="8" fill="#F4A04A" opacity="0.5"/>
+    <rect x="958" y="548" width="10" height="8" fill="#C4572A" opacity="0.6"/>
+    <rect x="910" y="562" width="10" height="8" fill="#E8773A" opacity="0.5"/>
+    <rect x="942" y="562" width="10" height="8" fill="#F4A04A" opacity="0.7"/>
+    <rect x="910" y="576" width="10" height="8" fill="#C4572A" opacity="0.4"/>
+    <rect x="926" y="576" width="10" height="8" fill="#F4A04A" opacity="0.6"/>
+    <rect x="958" y="576" width="10" height="8" fill="#E8773A" opacity="0.5"/>
+
+    <rect x="990" y="600" width="56" height="170"/>
+    <rect x="998" y="585" width="40" height="17"/>
+    <rect x="1000" y="593" width="8" height="8" fill="#F4A04A" opacity="0.6"/>
+    <rect x="1014" y="593" width="8" height="8" fill="#E8773A" opacity="0.5"/>
+    <rect x="1028" y="593" width="8" height="8" fill="#F4A04A" opacity="0.4"/>
+
+    <rect x="1056" y="570" width="66" height="200"/>
+    <rect x="1064" y="548" width="50" height="24"/>
+    <rect x="1084" y="526" width="10" height="24"/>
+    <rect x="1078" y="526" width="22" height="4"/>
+    <rect x="1066" y="556" width="10" height="8" fill="#E8773A" opacity="0.7"/>
+    <rect x="1082" y="556" width="10" height="8" fill="#F4A04A" opacity="0.6"/>
+    <rect x="1098" y="556" width="10" height="8" fill="#E8773A" opacity="0.5"/>
+    <rect x="1066" y="570" width="10" height="8" fill="#C4572A" opacity="0.4"/>
+    <rect x="1098" y="570" width="10" height="8" fill="#F4A04A" opacity="0.6"/>
+
+    <rect x="1132" y="610" width="44" height="160"/>
+    <rect x="1140" y="598" width="28" height="14"/>
+
+    <rect x="1186" y="640" width="36" height="130"/>
+    <rect x="1194" y="630" width="20" height="12"/>
+    <rect x="1196" y="618" width="6" height="14"/>
+
+    <rect x="1232" y="600" width="52" height="170"/>
+    <rect x="1240" y="580" width="36" height="22"/>
+    <rect x="1240" y="588" width="8" height="8" fill="#F4A04A" opacity="0.5"/>
+    <rect x="1254" y="588" width="8" height="8" fill="#E8773A" opacity="0.6"/>
+    <rect x="1268" y="588" width="8" height="8" fill="#C4572A" opacity="0.4"/>
+
+    <rect x="1294" y="650" width="80" height="120"/>
+    <rect x="1296" y="638" width="76" height="14"/>
+
+    <rect x="1380" y="620" width="60" height="150"/>
+    <rect x="1388" y="605" width="44" height="17"/>
+    <rect x="1405" y="588" width="10" height="19"/>
+  </g>
+
+  <!-- Layer 4: Foreground hill / ground (dark) -->
+  <path d="M0,780 Q360,720 720,750 Q1080,780 1440,740 L1440,900 L0,900 Z"
+        fill="#0A0A14" opacity="1"/>
+
+  <!-- Ground line detail -->
+  <path d="M0,795 Q360,735 720,765 Q1080,795 1440,755"
+        fill="none" stroke="#1E1040" stroke-width="2" opacity="0.5"/>
+
+  <!-- PIXEL CODER FIGURE — centered foreground -->
+  <g transform="translate(660, 640)">
+    <!-- Monitor stand -->
+    <rect x="52" y="94" width="16" height="20" fill="#0D0D1A"/>
+    <rect x="38" y="112" width="44" height="8" fill="#0D0D1A"/>
+    <!-- Monitor body -->
+    <rect x="10" y="40" width="100" height="70" rx="2" fill="#0D0D1A"/>
+    <!-- Monitor screen bezel -->
+    <rect x="10" y="40" width="100" height="70" rx="2" fill="none" stroke="#2D1B54" stroke-width="2"/>
+    <!-- Monitor screen -->
+    <rect x="16" y="46" width="88" height="58" fill="#0A0A28"/>
+    <!-- Screen glow -->
+    <rect x="16" y="46" width="88" height="58" fill="#4A2080" opacity="0.2"/>
+
+    <!-- Code lines on screen (pixel style) -->
+    <rect x="22" y="52" width="30" height="3" fill="#DA7638" opacity="0.9"/>
+    <rect x="56" y="52" width="14" height="3" fill="#7E4BC4" opacity="0.8"/>
+    <rect x="74" y="52" width="24" height="3" fill="#DA7638" opacity="0.7"/>
+    <rect x="22" y="59" width="18" height="3" fill="#5A9E6A" opacity="0.9"/>
+    <rect x="44" y="59" width="40" height="3" fill="#F0EDE6" opacity="0.7"/>
+    <rect x="22" y="66" width="8" height="3" fill="#7E4BC4" opacity="0.8"/>
+    <rect x="34" y="66" width="28" height="3" fill="#DA7638" opacity="0.8"/>
+    <rect x="66" y="66" width="18" height="3" fill="#5A9E6A" opacity="0.7"/>
+    <rect x="22" y="73" width="50" height="3" fill="#F0EDE6" opacity="0.6"/>
+    <rect x="76" y="73" width="20" height="3" fill="#DA7638" opacity="0.7"/>
+    <rect x="22" y="80" width="22" height="3" fill="#5A9E6A" opacity="0.8"/>
+    <rect x="48" y="80" width="34" height="3" fill="#7E4BC4" opacity="0.7"/>
+    <rect x="86" y="80" width="12" height="3" fill="#DA7638" opacity="0.6"/>
+    <!-- Cursor blink line -->
+    <rect x="22" y="87" width="6" height="3" fill="#F4A04A" opacity="0.9"/>
+    <rect x="22" y="87" width="2" height="3" fill="#F7D4A0" opacity="0.9"/>
+
+    <!-- Desk surface -->
+    <rect x="0" y="120" width="120" height="8" fill="#120820"/>
+    <rect x="0" y="128" width="120" height="4" fill="#0D0D1A"/>
+
+    <!-- Chair back/body -->
+    <rect x="48" y="148" width="24" height="40" fill="#1A1030"/>
+    <rect x="44" y="148" width="32" height="8" fill="#1A1030"/>
+    <!-- Chair wheel hints -->
+    <rect x="44" y="186" width="6" height="6" fill="#0D0D1A"/>
+    <rect x="70" y="186" width="6" height="6" fill="#0D0D1A"/>
+
+    <!-- Person torso -->
+    <rect x="50" y="128" width="20" height="20" fill="#2D1B54"/>
+    <!-- Person head -->
+    <rect x="54" y="110" width="12" height="14" fill="#3D2040"/>
+    <!-- Hair (pixel) -->
+    <rect x="52" y="108" width="16" height="4" fill="#1A1030"/>
+    <rect x="52" y="110" width="4" height="6" fill="#1A1030"/>
+    <!-- Hoodie hood -->
+    <rect x="50" y="108" width="20" height="6" fill="#1E1040" opacity="0.8"/>
+    <!-- Arms -->
+    <rect x="38" y="132" width="12" height="8" fill="#2D1B54"/><!-- left arm reaching keyboard -->
+    <rect x="70" y="132" width="12" height="8" fill="#2D1B54"/><!-- right arm -->
+    <!-- Hands/wrists -->
+    <rect x="36" y="138" width="8" height="6" fill="#3D2040"/>
+    <rect x="76" y="138" width="8" height="6" fill="#3D2040"/>
+    <!-- Keyboard -->
+    <rect x="28" y="120" width="64" height="8" fill="#161028"/>
+    <rect x="30" y="122" width="60" height="4" fill="#0D0D1A"/>
+    <!-- keyboard key detail -->
+    <rect x="32" y="122" width="4" height="3" fill="#1E1640" opacity="0.8"/>
+    <rect x="38" y="122" width="4" height="3" fill="#1E1640" opacity="0.8"/>
+    <rect x="44" y="122" width="4" height="3" fill="#1E1640" opacity="0.8"/>
+    <rect x="50" y="122" width="4" height="3" fill="#5A9E6A" opacity="0.5"/><!-- enter/active key glow -->
+    <rect x="56" y="122" width="4" height="3" fill="#1E1640" opacity="0.8"/>
+    <rect x="62" y="122" width="4" height="3" fill="#1E1640" opacity="0.8"/>
+    <rect x="68" y="122" width="4" height="3" fill="#1E1640" opacity="0.8"/>
+    <rect x="74" y="122" width="4" height="3" fill="#1E1640" opacity="0.8"/>
+    <rect x="80" y="122" width="4" height="3" fill="#1E1640" opacity="0.8"/>
+
+    <!-- Mug on desk -->
+    <rect x="100" y="112" width="12" height="12" fill="#1A1030"/>
+    <rect x="100" y="110" width="12" height="4" fill="#2D1B54"/>
+    <rect x="112" y="114" width="4" height="5" fill="none" stroke="#2D1B54" stroke-width="2"/>
+    <!-- Steam -->
+    <rect x="103" y="105" width="2" height="4" fill="#F4A04A" opacity="0.3"/>
+    <rect x="107" y="103" width="2" height="5" fill="#F4A04A" opacity="0.2"/>
+  </g>
+
+  <!-- Screen light spill onto coder -->
+  <ellipse cx="720" cy="700" rx="80" ry="30" fill="#4A2080" opacity="0.15"/>
+
+  <!-- Firewatch-style foreground grass/brush silhouettes -->
+  <!-- Left side -->
+  <g fill="#060610">
+    <rect x="0" y="840" width="8" height="60"/>
+    <rect x="4" y="828" width="4" height="14"/>
+    <rect x="8" y="832" width="4" height="10"/>
+    <rect x="16" y="836" width="6" height="52"/>
+    <rect x="18" y="822" width="4" height="16"/>
+    <rect x="28" y="844" width="8" height="44"/>
+    <rect x="30" y="830" width="6" height="16"/>
+    <rect x="32" y="820" width="4" height="12"/>
+    <rect x="44" y="848" width="6" height="40"/>
+    <rect x="46" y="838" width="4" height="12"/>
+    <rect x="56" y="842" width="8" height="46"/>
+    <rect x="58" y="826" width="6" height="18"/>
+    <rect x="60" y="814" width="4" height="14"/>
+    <rect x="72" y="850" width="6" height="38"/>
+    <rect x="74" y="840" width="4" height="12"/>
+    <rect x="84" y="852" width="8" height="36"/>
+    <rect x="86" y="838" width="6" height="16"/>
+  </g>
+  <!-- Right side -->
+  <g fill="#060610">
+    <rect x="1356" y="840" width="8" height="60"/>
+    <rect x="1360" y="828" width="4" height="14"/>
+    <rect x="1368" y="836" width="6" height="52"/>
+    <rect x="1370" y="822" width="4" height="16"/>
+    <rect x="1380" y="844" width="8" height="44"/>
+    <rect x="1386" y="830" width="4" height="16"/>
+    <rect x="1392" y="848" width="6" height="40"/>
+    <rect x="1396" y="838" width="4" height="12"/>
+    <rect x="1404" y="842" width="8" height="46"/>
+    <rect x="1408" y="826" width="6" height="18"/>
+    <rect x="1416" y="850" width="6" height="38"/>
+    <rect x="1420" y="840" width="4" height="12"/>
+    <rect x="1428" y="852" width="8" height="36"/>
+    <rect x="1432" y="838" width="6" height="16"/>
+  </g>
+
+  <!-- Bottom ground fill -->
+  <rect x="0" y="880" width="1440" height="20" fill="#060610"/>
+</svg>
