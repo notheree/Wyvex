@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#0D0A18"/>
+  <!-- Subtle gradient sky glow at bottom -->
+  <radialGradient id="glow" cx="50%" cy="100%" r="60%">
+    <stop offset="0%" stop-color="#3D1C0A" stop-opacity="1"/>
+    <stop offset="100%" stop-color="#0D0A18" stop-opacity="1"/>
+  </radialGradient>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <!-- Amber horizon line -->
+  <line x1="0" y1="580" x2="1200" y2="580" stroke="#DA7638" stroke-width="1" stroke-opacity="0.3"/>
+  <!-- Star dots -->
+  <circle cx="120" cy="60" r="1.5" fill="#F0EDE6" opacity="0.6"/>
+  <circle cx="340" cy="35" r="1" fill="#F0EDE6" opacity="0.5"/>
+  <circle cx="600" cy="50" r="1.5" fill="#F0EDE6" opacity="0.4"/>
+  <circle cx="900" cy="30" r="1" fill="#F0EDE6" opacity="0.6"/>
+  <circle cx="1100" cy="70" r="1.5" fill="#F0EDE6" opacity="0.5"/>
+  <circle cx="200" cy="120" r="1" fill="#F0EDE6" opacity="0.3"/>
+  <circle cx="1050" cy="140" r="1" fill="#F0EDE6" opacity="0.4"/>
+  <!-- W logo mark — left side -->
+  <circle cx="160" cy="315" r="72" fill="none" stroke="#DA7638" stroke-width="3" opacity="0.9"/>
+  <circle cx="160" cy="315" r="75" fill="#0D0A18" opacity="0.5"/>
+  <circle cx="160" cy="315" r="75" fill="none" stroke="#DA7638" stroke-width="3"/>
+  <path d="M120 290 L137 340 L160 310 L183 340 L200 290"
+        fill="none" stroke="#DA7638" stroke-width="8"
+        stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- WYVEX wordmark -->
+  <text x="270" y="295"
+        font-family="Georgia, 'Times New Roman', serif"
+        font-weight="900"
+        font-size="96"
+        letter-spacing="6"
+        fill="#F0EDE6">WYVEX</text>
+  <!-- Tagline -->
+  <text x="272" y="350"
+        font-family="Arial, Helvetica, sans-serif"
+        font-weight="400"
+        font-size="28"
+        letter-spacing="4"
+        fill="#DA7638"
+        text-transform="uppercase">AI TOOLS FOR SMALL BUSINESS</text>
+  <!-- Divider -->
+  <line x1="270" y1="378" x2="870" y2="378" stroke="#DA7638" stroke-width="1" stroke-opacity="0.4"/>
+  <!-- Sub copy -->
+  <text x="272" y="418"
+        font-family="Arial, Helvetica, sans-serif"
+        font-weight="300"
+        font-size="22"
+        fill="#F0EDE6"
+        opacity="0.7">Chatbots · Workflow Automation · Custom Websites</text>
+  <!-- Domain -->
+  <text x="272" y="470"
+        font-family="Arial, Helvetica, sans-serif"
+        font-weight="400"
+        font-size="20"
+        fill="#DA7638"
+        opacity="0.6">wyvex.co.uk</text>
+</svg>
